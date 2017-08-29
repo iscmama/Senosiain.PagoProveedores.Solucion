@@ -22,8 +22,16 @@ namespace Senosiain.Web
             if (!IsPostBack)
             {
                 CultureInfo ci = new CultureInfo(CultureInfo.CurrentUICulture.Name);
-                string homeDirectory = @"D:\InventivaGS\2014\Noviembre\04-11-2014\PagoProveedores\Archivos\";
+                string homeDirectory = @"E:\Inventiva\Workspace\Senosiain.PagoProveedores.Solucion\Senosiain.Web\Archivos\";
                 string extensionFiles = "*.txt";
+
+                string[] filesPDF = Directory.GetFiles(@"E:\Inventiva\Workspace\Senosiain.PagoProveedores.Solucion\Senosiain.Web\Facturas", "*.pdf");
+
+                foreach (string file in filesPDF)
+                {
+                    if (File.Exists(file))
+                        File.Delete(file);
+                }
 
                 string[] filePaths = Directory.GetFiles(homeDirectory, extensionFiles);
 
@@ -45,6 +53,9 @@ namespace Senosiain.Web
                     sb.AppendLine("Col7=IMPORTE Double");
                     sb.AppendLine("Col8=MONEDA Text");
                     sb.AppendLine("Col9=TIPOCAMBIO Double");
+                    sb.AppendLine("Col10=RFC Text");
+                    sb.AppendLine("Col11=NOMBREBANCO Text");
+                    sb.AppendLine("Col12=CUENTABANCARIA Text");
 
                     if (File.Exists(homeDirectory + archivoIni))
                         File.Delete(homeDirectory + archivoIni);

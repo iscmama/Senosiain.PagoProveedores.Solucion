@@ -24,6 +24,9 @@
               <xs:element name="IMPORTE" msprop:Generator_ColumnVarNameInTable="columnIMPORTE" msprop:Generator_ColumnPropNameInRow="IMPORTE" msprop:Generator_ColumnPropNameInTable="IMPORTEColumn" msprop:Generator_UserColumnName="IMPORTE" type="xs:string" minOccurs="0" />
               <xs:element name="MONEDA" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn" msprop:Generator_UserColumnName="MONEDA" type="xs:string" minOccurs="0" />
               <xs:element name="TIPOCAMBIO" msprop:Generator_ColumnVarNameInTable="columnTIPOCAMBIO" msprop:Generator_ColumnPropNameInRow="TIPOCAMBIO" msprop:Generator_ColumnPropNameInTable="TIPOCAMBIOColumn" msprop:Generator_UserColumnName="TIPOCAMBIO" type="xs:string" minOccurs="0" />
+              <xs:element name="RFC" msprop:Generator_ColumnVarNameInTable="columnRFC" msprop:Generator_ColumnPropNameInRow="RFC" msprop:Generator_ColumnPropNameInTable="RFCColumn" msprop:Generator_UserColumnName="RFC" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBREBANCO" msprop:Generator_ColumnVarNameInTable="columnNOMBREBANCO" msprop:Generator_ColumnPropNameInRow="NOMBREBANCO" msprop:Generator_ColumnPropNameInTable="NOMBREBANCOColumn" msprop:Generator_UserColumnName="NOMBREBANCO" type="xs:string" minOccurs="0" />
+              <xs:element name="CUENTABANCARIA" msprop:Generator_ColumnVarNameInTable="columnCUENTABANCARIA" msprop:Generator_ColumnPropNameInRow="CUENTABANCARIA" msprop:Generator_ColumnPropNameInTable="CUENTABANCARIAColumn" msprop:Generator_UserColumnName="CUENTABANCARIA" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

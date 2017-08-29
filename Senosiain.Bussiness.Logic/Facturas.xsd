@@ -12,7 +12,7 @@
   <xs:element name="Facturas" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Facturas" msprop:Generator_UserDSName="Facturas">
     <xs:complexType>
       <xs:choice minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="FACTURA" msprop:Generator_TableClassName="FACTURADataTable" msprop:Generator_TableVarName="tableFACTURA" msprop:Generator_RowChangedName="FACTURARowChanged" msprop:Generator_TablePropName="FACTURA" msprop:Generator_RowDeletingName="FACTURARowDeleting" msprop:Generator_RowChangingName="FACTURARowChanging" msprop:Generator_RowEvHandlerName="FACTURARowChangeEventHandler" msprop:Generator_RowDeletedName="FACTURARowDeleted" msprop:Generator_RowClassName="FACTURARow" msprop:Generator_UserTableName="FACTURA" msprop:Generator_RowEvArgName="FACTURARowChangeEvent">
+        <xs:element name="FACTURA" msprop:Generator_TableClassName="FACTURADataTable" msprop:Generator_TableVarName="tableFACTURA" msprop:Generator_TablePropName="FACTURA" msprop:Generator_RowDeletingName="FACTURARowDeleting" msprop:Generator_RowChangingName="FACTURARowChanging" msprop:Generator_RowEvHandlerName="FACTURARowChangeEventHandler" msprop:Generator_RowDeletedName="FACTURARowDeleted" msprop:Generator_UserTableName="FACTURA" msprop:Generator_RowChangedName="FACTURARowChanged" msprop:Generator_RowEvArgName="FACTURARowChangeEvent" msprop:Generator_RowClassName="FACTURARow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="FECHA" msprop:Generator_ColumnVarNameInTable="columnFECHA" msprop:Generator_ColumnPropNameInRow="FECHA" msprop:Generator_ColumnPropNameInTable="FECHAColumn" msprop:Generator_UserColumnName="FECHA" type="xs:string" minOccurs="0" />
@@ -24,6 +24,9 @@
               <xs:element name="IMPORTE" msprop:Generator_ColumnVarNameInTable="columnIMPORTE" msprop:Generator_ColumnPropNameInRow="IMPORTE" msprop:Generator_ColumnPropNameInTable="IMPORTEColumn" msprop:Generator_UserColumnName="IMPORTE" type="xs:string" minOccurs="0" />
               <xs:element name="MONEDA" msprop:Generator_ColumnVarNameInTable="columnMONEDA" msprop:Generator_ColumnPropNameInRow="MONEDA" msprop:Generator_ColumnPropNameInTable="MONEDAColumn" msprop:Generator_UserColumnName="MONEDA" type="xs:string" minOccurs="0" />
               <xs:element name="TIPOCAMBIO" msprop:Generator_ColumnVarNameInTable="columnTIPOCAMBIO" msprop:Generator_ColumnPropNameInRow="TIPOCAMBIO" msprop:Generator_ColumnPropNameInTable="TIPOCAMBIOColumn" msprop:Generator_UserColumnName="TIPOCAMBIO" type="xs:string" minOccurs="0" />
+              <xs:element name="RFC" msprop:Generator_ColumnVarNameInTable="columnRFC" msprop:Generator_ColumnPropNameInRow="RFC" msprop:Generator_ColumnPropNameInTable="RFCColumn" msprop:Generator_UserColumnName="RFC" type="xs:string" minOccurs="0" />
+              <xs:element name="NOMBREBANCO" msprop:Generator_ColumnVarNameInTable="columnNOMBREBANCO" msprop:Generator_ColumnPropNameInRow="NOMBREBANCO" msprop:Generator_ColumnPropNameInTable="NOMBREBANCOColumn" msprop:Generator_UserColumnName="NOMBREBANCO" type="xs:string" minOccurs="0" />
+              <xs:element name="CUENTABANCARIA" msprop:Generator_ColumnVarNameInTable="columnCUENTABANCARIA" msprop:Generator_ColumnPropNameInRow="CUENTABANCARIA" msprop:Generator_ColumnPropNameInTable="CUENTABANCARIAColumn" msprop:Generator_UserColumnName="CUENTABANCARIA" type="xs:string" minOccurs="0" />
             </xs:sequence>
           </xs:complexType>
         </xs:element>

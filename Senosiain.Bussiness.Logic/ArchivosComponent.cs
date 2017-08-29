@@ -109,6 +109,9 @@ namespace Senosiain.Bussiness.Logic
                                 sb.AppendLine("Col7=IMPORTE Double");
                                 sb.AppendLine("Col8=MONEDA Text");
                                 sb.AppendLine("Col9=TIPOCAMBIO Double");
+                                sb.AppendLine("Col10=RFC Text");
+                                sb.AppendLine("Col11=NOMBREBANCO Text");
+                                sb.AppendLine("Col12=CUENTABANCARIA Text");
 
                                 if (File.Exists(homeDirectoryFiles + @"\" + archivoIni))
                                     File.Delete(homeDirectoryFiles + @"\" + archivoIni);
@@ -216,7 +219,7 @@ namespace Senosiain.Bussiness.Logic
             {
                 string full = Path.GetFullPath(fileFull);
                 string file = Path.GetFileName(full);
-                string dir = Path.GetDirectoryName(full);                
+                string dir = Path.GetDirectoryName(full);
 
                 string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;"
                               + "Data Source=\"" + dir + "\\\";"
