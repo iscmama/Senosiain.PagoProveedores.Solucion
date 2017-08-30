@@ -69,7 +69,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>RFC</Value>
+                              <Value>RFC ORDENANTE</Value>
                               <Style>
                                 <FontWeight>Bold</FontWeight>
                                 <Color>Teal</Color>
@@ -104,7 +104,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>BANCO</Value>
+                              <Value>BANCO ORDENANTE</Value>
                               <Style>
                                 <FontWeight>Bold</FontWeight>
                                 <Color>Teal</Color>
@@ -139,7 +139,7 @@
                         <Paragraph>
                           <TextRuns>
                             <TextRun>
-                              <Value>CUENTA</Value>
+                              <Value>CUENTA ORDENANTE</Value>
                               <Style>
                                 <FontWeight>Bold</FontWeight>
                                 <Color>Teal</Color>
@@ -1204,7 +1204,7 @@
         <Top>0.3175cm</Top>
         <Left>0.31842cm</Left>
         <Height>1.96048cm</Height>
-        <Width>25.66591cm</Width>
+        <Width>25.6659cm</Width>
         <Style>
           <Border>
             <Style>None</Style>
